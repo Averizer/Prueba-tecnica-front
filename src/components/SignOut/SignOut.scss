@@ -1,0 +1,25 @@
+@import '../../scss/index.scss';
+
+.sign-out {
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  background-color: $blanco;
+  .salir {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    border-radius: 100px !important;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: $blanco;
+    background-color: $lila;
+    border-color: transparent;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

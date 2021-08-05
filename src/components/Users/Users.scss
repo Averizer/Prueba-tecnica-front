@@ -1,0 +1,20 @@
+@import '../../scss/index.scss';
+
+.ui.grid.users {
+  background-color: $blanco;
+  min-height: 100vh;
+  margin: 0;
+
+  .row {
+    padding: 0;
+    &:first-of-type {
+      height: 90vh;
+    }
+    .eight.wide.column {
+      padding: 0px 0px;
+      margin: 0px 0px;
+      width: min-content !important;
+      height: 100vh;
+    }
+  }
+}
